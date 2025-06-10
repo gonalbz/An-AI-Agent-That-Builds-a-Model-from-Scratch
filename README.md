@@ -47,9 +47,6 @@ An-AI-Agent-That-Builds-a-Model-from-Scratch/
     └── task_templates.md         # Task decomposition examples
 ```
 
-# 📄 README.md (Suggested Content)
-
-```markdown
 # 🤖 Data Science Copilot
 
 A LangChain/LangGraph-based agentic system that autonomously plans and writes Python code to solve a data science task, such as predicting customer churn.
@@ -94,8 +91,6 @@ Given a user input like "predict churn from this dataset," the system:
 ```bash
 # Clone and install
 pip install -r requirements.txt or we can use uv
-
-```
 
 ---
 
