@@ -47,13 +47,9 @@ An-AI-Agent-That-Builds-a-Model-from-Scratch/
     └── task_templates.md         # Task decomposition examples
 ```
 
-# 🤖 Data Science Copilot
-
-A LangChain/LangGraph-based agentic system that autonomously plans and writes Python code to solve a data science task, such as predicting customer churn.
-
 ---
 
-## 🚀 Goal
+##  Goal
 Given a user input like "predict churn from this dataset," the system:
 1. Reads dataset schema
 2. Plans modeling steps (EDA, preprocessing, training, evaluation)
@@ -63,7 +59,7 @@ Given a user input like "predict churn from this dataset," the system:
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 - **LangGraph**: Orchestration of task flow
 - **LangChain**: Tool routing and code generation
@@ -84,17 +80,17 @@ Given a user input like "predict churn from this dataset," the system:
 
 ---
 
-## 🧪 Example Prompt
+## Example Prompt
 > "Build a churn prediction model using this CSV file."
 
-## 💻 Usage
-```bash
+##  Usage
+
 # Clone and install
 pip install -r requirements.txt or we can use uv
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 - Python, LangGraph, LangChain
 - OpenAI API or Anthropic
 - Streamlit (optional UI)
@@ -103,16 +99,9 @@ pip install -r requirements.txt or we can use uv
 
 ---
 
-## 👥 Team Collaboration
+##  Team Collaboration
 - Each module lives in `tools/` — assigned to one dev
 - Main DAG lives in `langgraph_app/`
 - CI via GitHub Actions 
 - PR-based dev flow with review gates on `main`
 
----
-
-## 📌 To Do
-- [ ] Finalize dataset format
-- [ ] Design prompt templates
-- [ ] Add REPL execution sandbox
-- [ ] Write unit tests for tools
